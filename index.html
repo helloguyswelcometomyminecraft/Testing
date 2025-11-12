@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио дизайнера</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+
+  <header>
+    <div class="logo">Найман Олжас</div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Главная</a></li>
+        <li><a href="#works">Работы</a></li>
+        <li><a href="#about">Обо мне</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="burger">&#9776;</div>
+    <button class="theme-toggle">🌙</button>
+  </header>
+
+  <section id="hero" class="hero hidden">
+    <h1>Я — специалист-дизайнер Найман Олжас</h1>
+    <p>Создаю визуальные решения, которые вдохновляют.</p>
+    <button class="btn" onClick="">Посмотреть работы</button>
+  </section>
+
+  <section id="works" class="works hidden">
+    <h2>Мои проекты</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/absurd1.png" alt="Проект 1">
+        <h3>Финальный фильтр</h3>
+        <p>Шаблон совместного фильма с длинным сюжетом.</p>
+      </div>
+      <div class="card">
+        <img src="images/siteProject.png" alt="Проект 2">
+        <h3>Креветочная</h3>
+        <p>Сайт по продаже креветок.</p>
+      </div>
+      <div class="card">
+        <img src="images/Mcrop.png" alt="Проект 3">
+        <h3>M.corp</h3>
+        <p>Логотип корпорации Mem .</p>
+      </div>
+      <div class="card">
+        <img src="images/SaveDaFishes.png" alt="Проект 4">
+        <h3>Эко-постер</h3>
+        <p>Постер по очистке океана</p>
+      </div>
+      <div class="card">
+        <img src="images/siteProject2.png" alt="Проект 5">
+        <h3>Пекарня</h3>
+        <p>Макет сайта пекарни.</p>
+      </div>
+      <div class="card">
+        <img src="images/siteProject3.png" alt="Проект 6">
+        <h3>ЗооМазагин</h3>
+        <p>Макет сайта Зоомагазина.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about hidden">
+    <div class="photo">
+      <img src="images/BONGBONG.png" alt="Фото дизайнера">
+    </div>
+    <div class="text">
+      <h2>Обо мне</h2>
+      <p>Я дизайнер с опытом работы в UI/UX и графике</p>
+      <h3>Навыки:</h3>
+      <ul>
+        <li>Figma, Adobe XD, Photoshop</li>
+        <li>Типографика и композиция</li>
+        <li>Создание бренд-айдентики</li>
+        <li>Знаю C# и Фронтент</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact hidden">
+    <h2>Связаться со мной</h2>
+    <form>
+      <input type="text" placeholder="Ваше имя">
+      <input type="email" placeholder="Ваш Email">
+      <textarea placeholder="Сообщение"></textarea>
+      <button class="form-btn">Отправить</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Найман Олжас</p>
+    <div class="socials">
+      <a href="#"><img src="images/insta.png" alt="Instagram"></a>
+      <a href="#"><img src="images/behance-icon--3.png" alt="Behance"></a>
+      <a href="#"><img src="images/dribbble-5-logo-png-transparent.png" alt="Dribbble"></a>
+    </div>
+    <a href="#top" class="up">Наверх ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
